@@ -40,7 +40,10 @@ INSTALLED_APPS = [
 
     'account.apps.AccountConfig',
     'quiz.apps.QuizConfig',
+    'proxymodelapp.apps.ProxymodelappConfig',
 ]
+
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

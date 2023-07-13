@@ -14,12 +14,25 @@
 
     <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
 
-        <a class="me-3 py-2 text-dark text-decoration-none" href="{% url 'index' %}">Тесты</a>
-         <a class="me-3 py-2 text-dark text-decoration-none" href="#">Регистрация/Вход</a>
+<!--        <a class="me-3 py-2 text-dark text-decoration-none" href="{% url 'index' %}">Тесты</a>-->
+<!--         <a class="me-3 py-2 text-dark text-decoration-none" href="{% url 'home-page' %}">Регистрация/Вход</a>-->
 
     </nav>
 </div>
 
 <div class="features">
     <h1>Система тестирования</h1>
-    <p>Авторизация</p>
+<!--    <p>Авторизация</p>-->
+    <style>
+              .btn {
+              display: inline-block;
+              background: grey;
+              color: white;
+              padding: 0.5rem 1.5rem;
+              text-decoration: none;
+              border-radius: 7px;
+              }
+          </style>
+        <a href="{% url 'home-page' %}" class="btn">Авторизация</a>
+
+</div>

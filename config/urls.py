@@ -32,6 +32,7 @@ urlpatterns = [
     path('quiz', include('quiz.urls')),
     path('account', include('account.urls')),
     path('', views.web, name='home'),
+    path('proxymodelapp', include('proxymodelapp.urls')),
 
 ]
 
