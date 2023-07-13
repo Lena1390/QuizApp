@@ -2,16 +2,16 @@
 <html>
   <body>
     <hr>
-    <br>
-    {% if request.user.is_authenticated %}
-    The current_user is  : {{request.user.email}}
-    <br>
-    <br>
-    The type of the user is  : {{request.user.type}}
-    {% endif %}
+<!--    <br>-->
+<!--    {% if request.user.is_authenticated %}-->
+<!--    The current_user is  : {{request.user.email}}-->
+<!--    <br>-->
+<!--    <br>-->
+<!--    The type of the user is  : {{request.user.type}}-->
+<!--    {% endif %}-->
+<!--    <br />-->
     <br />
-    <br />
-    <a href="{% url 'login-user' %}"> Login </a>
+    <a href="{% url 'login-user' %}" class="btn">Войти</a>
     <br />
     <hr>
   </body>
