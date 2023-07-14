@@ -24,18 +24,28 @@
 
 
 <div class="features">
-    <h1>Система тестирования</h1>
+    <h1>Добро пожаловать в систему тестирования для студентов!</h1>
 <!--    <p>Авторизация</p>-->
     <style>
+              body{
+              background-color:#D0E0E3;
+              }
+              .features{
+              margin-top: 200px;
+              text-align: center;
+
+              }
               .btn {
               display: inline-block;
               background: #799EA4;
               color: white;
-              padding: 0.5rem 1.5rem;
+              padding: 0.5rem 4.5rem;
               text-decoration: none;
               border-radius: 7px;
+              margin-top: 40px;
               }
+
           </style>
-        <a href="{% url 'home-page' %}" class="btn">Авторизация</a>
+        <a href="{% url 'login-user' %}" class="btn">Авторизация</a>
 
 </div>
